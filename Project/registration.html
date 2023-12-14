@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympia | Профіль користувача</title>
+	<link rel="icon" href="img/user_icon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body class = "body_registration">
+    <header class="header">
+            <nav class="nav">
+                <a class="logo" href="index.html">
+                    <img  src="./img/logo.svg" class = "logo_img" alt="логотип спортивного залу">					
+                </a>
+                
+                <ul class="info">
+                    <li class="info_list">
+                        <p class="info_1" >ПН-ПТ 07:00 - 22:00 +380 50 161 22 44</p>
+                    </li>
+                    <li class="info_list">
+                       <p class="info_1" >СБ-ВС 08:00 - 21:00 +380 93 111 33 55</p>
+                    </li>
+                </ul>
+                    <a class="user_icon_link" href="profile.html">
+                    <img src="./img/user_icon.svg" class="user_icon" alt="іконка акаунту користувача">
+                </a>
+            </nav>
+    </header>
+    <main class="main">
+         <section class = "registration_form">
+		 <div class = "registration_form_block">
+			<form method = "post" action = "php/connect.php">
+			<input type = "text" name = "username">
+			<input type = "password" name = "password">
+			<div class = "submit_buttons">
+			<input type = "submit" value = "Register" class = "reg_button">
+			<input type = "submit" value = "Login" class = "reg_button">
+			</div>
+			</form>
+		 </div>
+         </section>
+     </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>
